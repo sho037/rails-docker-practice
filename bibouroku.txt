@@ -9,6 +9,8 @@ $ docker-compose up -d
 
 コントローラー作成 ???にコントローラー名を入力
 $ docker-compose run -d web rails g controller ???
+/app/views/???/ができる
+/config/routes.rbでもいじればいい
 
 アプリ終了
 $ docker-compose down

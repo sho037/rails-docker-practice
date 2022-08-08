@@ -1,0 +1,14 @@
+始める前に毎回した方がいいのかも？
+$ docker-compose build
+
+データベースをいじったときに入力するコマンド？
+$ docker-compose run web rails db:create
+
+アプリ起動 -dはバックグランドで起動
+$ docker-compose up -d
+
+コントローラー作成 ???にコントローラー名を入力
+$ docker-compose run -d web rails g controller ???
+
+アプリ終了
+$ docker-compose down

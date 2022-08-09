@@ -4,6 +4,9 @@ $ docker-compose build
 データベースをいじったときに入力するコマンド？
 $ docker-compose run web rails db:create
 
+Rails6～いるらしい?
+docker-compose run web rails webpacker:install
+
 アプリ起動 -dはバックグランドで起動
 $ docker-compose up -d
 

@@ -1,9 +1,10 @@
 # README
 
+
+
 このリポジトリは練習用のものです。<br>
-DockerでRuby on Railsの環境を構築し、実際にアプリを一通り作るまでをしています。
-
-
+DockerでRuby on Railsの環境を構築し、実際にアプリを一通り作るまでをしています。<br>
+目指せDoker,Ruby on Rails習得！<br>
 
 This README would normally document whatever steps are necessary to get the
 application up and running.

@@ -17,3 +17,11 @@ $ docker-compose run -d web rails g controller ???
 
 アプリ終了
 $ docker-compose down
+
+※githubからwindowsにcloneする際に注意
+gitは勝手に改行コードをLFからCRLFに変えてしまいます。なので環境構築がうまくいかない可能性があります。
+そこでgitの設定を変えてあげる必要があります。
+一つ一つファイルの設定を変えてもよいですが、めんどくさいと思います。
+git config --global core.autocrlf input
+を実行しましょう。
+https://prograshi.com/platform/docker/convert-crlf-to-lf/

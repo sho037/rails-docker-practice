@@ -35,3 +35,5 @@ docker-compose run web rails routes
 https://zenn.dev/odentravel/books/e69a157daeecb3/viewer/065fd5
 作り方は上記のWebを参考に作成すること
 
+リンク先のパスを確認
+docker-compose run web rails routes

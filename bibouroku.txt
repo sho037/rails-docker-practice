@@ -4,6 +4,8 @@ $ docker-compose build
 データベースをいじったときに入力するコマンド？
 $ docker-compose run web rails db:create
 
+$ docker-compose run web rails db:migrate
+
 Rails6～いるらしい?
 docker-compose run web rails webpacker:install
 
@@ -25,3 +27,10 @@ gitは勝手に改行コードをLFからCRLFに変えてしまいます。な�
 git config --global core.autocrlf input
 を実行しましょう。
 https://prograshi.com/platform/docker/convert-crlf-to-lf/
+
+
+
+データベースについて
+https://zenn.dev/odentravel/books/e69a157daeecb3/viewer/065fd5
+作り方は上記のWebを参考に作成すること
+

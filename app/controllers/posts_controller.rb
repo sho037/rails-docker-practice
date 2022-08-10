@@ -3,6 +3,10 @@ class PostsController < ApplicationController
     @post = Post.new
   end
 
+  def index
+    @posts = Post.all
+  end
+
   def create
     post = Post.new(post_params)
     post.save
@@ -13,4 +17,5 @@ class PostsController < ApplicationController
   def post_params
     params.require(:post).permit(:location, :text)
   end
+
 end

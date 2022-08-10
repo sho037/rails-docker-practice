@@ -28,7 +28,8 @@ git config --global core.autocrlf input
 を実行しましょう。
 https://prograshi.com/platform/docker/convert-crlf-to-lf/
 
-
+ルーティングの確認
+docker-compose run web rails routes
 
 データベースについて
 https://zenn.dev/odentravel/books/e69a157daeecb3/viewer/065fd5
